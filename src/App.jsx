@@ -1,25 +1,30 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, { Component } from "react";
+import logo from "./logo.svg";
 
-import './App.css';
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
+          <img src="images/ironhack-logo.svg" className="App-logo" alt="ironhack-logo" />
+          <img src="images/menu-top.svg" className="Menu-top" alt="Menu-top" />
+          <h1 className="Tag-line">Say hello to React JS</h1>
+          <p className="Sub-title">
+            You will learn a Frontend framework from scratch, to become a Ninja Developer.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+
+          <button className="Button">
+            <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Awesome!
+            </a>
+          </button>
         </header>
       </div>
     );
